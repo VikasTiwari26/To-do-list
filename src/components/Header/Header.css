@@ -1,0 +1,15 @@
+.header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 59px;
+    background: #00ffcc;
+}
+
+.header p {
+    margin-left: 22px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+}

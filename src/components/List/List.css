@@ -1,0 +1,74 @@
+.main-list-cntnr {
+    height: 100vh;
+    background: #000;
+}
+
+.search-bar {
+    width: 100%;
+    position: fixed;
+    margin-top: 72px;
+    left: 0;
+    right: 0;
+    background: #000;
+}
+
+.search-bar input {
+    height: 35px;
+    width: 93%;
+    margin: auto;
+    margin-left: 1%;
+    background: transparent;
+    color: #fff;
+    border: 1px solid #00ffcc;
+    border-radius: 4px;
+    font-size: 18px;
+    padding-left: 15px;
+}
+
+.search-bar input::placeholder{
+    color: #fff;
+}
+.search-bar input:focus {
+    outline: none;
+}
+
+.to-do-list {
+    padding-top: 140px;
+    padding-bottom: 70px;
+}
+
+.list-item {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    margin: auto;
+    height: 26px;
+}
+
+.task-detail {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.task-detail p {
+    margin-left: 17px;
+    font-size: 18px;
+}
+
+.completed-task {
+    text-decoration-line: line-through;
+    color: #b2aeae;
+}
+
+.delete-task {
+
+}
+
+.search-btn {
+    position: absolute;
+    margin-left: -27px;
+    margin-top: 12px;
+}
